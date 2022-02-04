@@ -45,7 +45,7 @@ export default {
   display: flex;
 
   &__text-section {
-    margin-left: 8px;
+    margin-left: 12px;
   }
 
   &__shorttext {

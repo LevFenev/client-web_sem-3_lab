@@ -23,6 +23,7 @@ export default {
 </script>
 
 <style lang="scss">
+
 .on-hover {
   cursor: pointer;
   transform: scale(1.003);

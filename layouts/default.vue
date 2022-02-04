@@ -19,7 +19,7 @@
 
       </v-card>
       <v-list class="pa-0">
-        <v-list-item
+        <v-list-item style="background-color: white"
           v-for="(item, i) in items"
           :key="i"
           :to="item.to"

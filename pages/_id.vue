@@ -1,6 +1,6 @@
 <template>
   <v-row class="d-flex flex-column col-xs-12 col-sm-10 col-md-8 px-4">
-    <v-btn class="caption mb-4" to="/newspage">&lt; - вернуться</v-btn>
+    <v-btn class="caption mb-4" to="/newspage">&lt; = назад</v-btn>
     <img :src="'/' + newsData.full_image" alt="" />
     <h1>{{ newsData.name }}</h1>
     <p>{{ newsData.desc }}</p>
@@ -10,8 +10,8 @@
         <v-col>
           <v-text-field
             v-model="user_name"
-            :counter="40"
-            label="Представьтесь"
+            :counter="30"
+            label="Ваше имя"
             required
           ></v-text-field>
         </v-col>
